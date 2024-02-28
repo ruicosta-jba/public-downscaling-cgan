@@ -14,7 +14,7 @@ services:
       # - ./setup.py:/app/setup.py
       # - ./setup.cfg:/app/setup.cfg
       - ./.vscode/:/app/.vscode
-      - /mnt/RML-DC019/LiveData/Jupiter/2023/ERA5:/app/data/ERA5_raw
+      - /mnt/RML-DC019/LiveData/Jupiter/2023/ERA5/ruis_ERA5_nc_files :/app/data/ERA5_raw/ruis_ERA5_nc_files
     deploy:
       resources:
         reservations:
